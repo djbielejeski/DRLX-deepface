@@ -11,13 +11,9 @@ DRLX is a library for distributed training of diffusion models via RL. It is mea
 First make sure you've installed [OpenCLIP](https://github.com/openai/CLIP.git). Afterwards, you can install the library from pypi:
 
 ```sh
-pip install drlx
-```
-
-or from source:
-
-```sh
-pip install git+https://github.com/CarperAI/DRLX.git
+python -m venv venv
+venv\Scripts\activate.bat
+pip install -r requirements.txt
 ```
 
 # How to use
